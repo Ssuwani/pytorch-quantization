@@ -92,10 +92,10 @@ Cifar 10 데이터셋을 이용해 간단한 분류 모델을 학습한 후, 앞
 
 | 모델 | 정확도 (%) | 모델 크기 (MB) |
 | --- | --- | --- |
-| 기본 모델 | 61.95% | 2.6 MB |
-| Dynamic Quantization | 61.91% | 0.94MB |
-| Static Quantization | 61.87% | 0.66 |
-| QAT | 60.95% | 0.66 |
+| 기본 모델 | 61.95 | 2.61 |
+| Dynamic Quantization | 61.91 | 0.94 |
+| Static Quantization | 61.87 | 0.66 |
+| Quantization-Aware Training | 60.95 | 0.66 |
 
 
 예상한대로 양자화를 적용한 모델은 일반 모델에 비해 크기가 크게 줄어들었고 정확도에서 약간의 손실이 발생했습니다. Trade-Off 관계를 잘 이해하고 적절한 양자화 방법을 선택하는 것이 중요합니다.
